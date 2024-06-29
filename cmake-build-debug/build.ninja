@@ -52,7 +52,7 @@ build cmake_object_order_depends_target_cleaner: phony || CMakeFiles/cleaner.dir
 build CMakeFiles/cleaner.dir/Application/arm.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Application/arm.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Application\arm.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Application
@@ -62,7 +62,7 @@ build CMakeFiles/cleaner.dir/Application/arm.c.obj: C_COMPILER__cleaner_unscanne
 build CMakeFiles/cleaner.dir/Application/chassis.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Application/chassis.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Application\chassis.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Application
@@ -72,7 +72,7 @@ build CMakeFiles/cleaner.dir/Application/chassis.c.obj: C_COMPILER__cleaner_unsc
 build CMakeFiles/cleaner.dir/Application/distance.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Application/distance.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Application\distance.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Application
@@ -82,7 +82,7 @@ build CMakeFiles/cleaner.dir/Application/distance.c.obj: C_COMPILER__cleaner_uns
 build CMakeFiles/cleaner.dir/Application/upper.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Application/upper.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Application\upper.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Application
@@ -92,7 +92,7 @@ build CMakeFiles/cleaner.dir/Application/upper.c.obj: C_COMPILER__cleaner_unscan
 build CMakeFiles/cleaner.dir/Bsp/bsp_dwt.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Bsp/bsp_dwt.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Bsp\bsp_dwt.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Bsp
@@ -102,7 +102,7 @@ build CMakeFiles/cleaner.dir/Bsp/bsp_dwt.c.obj: C_COMPILER__cleaner_unscanned_De
 build CMakeFiles/cleaner.dir/Bsp/bsp_uart.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Bsp/bsp_uart.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Bsp\bsp_uart.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Bsp
@@ -112,7 +112,17 @@ build CMakeFiles/cleaner.dir/Bsp/bsp_uart.c.obj: C_COMPILER__cleaner_unscanned_D
 build CMakeFiles/cleaner.dir/Components/hcsr04.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Components/hcsr04.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Components\hcsr04.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
+  INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\cleaner.dir
+  OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Components
+  TARGET_COMPILE_PDB = CMakeFiles\cleaner.dir\
+  TARGET_PDB = cleaner.pdb
+
+build CMakeFiles/cleaner.dir/Components/motor.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Components/motor.c || cmake_object_order_depends_target_cleaner
+  DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\cleaner.dir\Components\motor.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Components
@@ -122,7 +132,17 @@ build CMakeFiles/cleaner.dir/Components/hcsr04.c.obj: C_COMPILER__cleaner_unscan
 build CMakeFiles/cleaner.dir/Components/pid.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Components/pid.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Components\pid.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
+  INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\cleaner.dir
+  OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Components
+  TARGET_COMPILE_PDB = CMakeFiles\cleaner.dir\
+  TARGET_PDB = cleaner.pdb
+
+build CMakeFiles/cleaner.dir/Components/servo.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Components/servo.c || cmake_object_order_depends_target_cleaner
+  DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\cleaner.dir\Components\servo.c.obj.d
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Components
@@ -132,7 +152,7 @@ build CMakeFiles/cleaner.dir/Components/pid.c.obj: C_COMPILER__cleaner_unscanned
 build CMakeFiles/cleaner.dir/Core/Src/main.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Core/Src/main.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Core\Src\main.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Core\Src
@@ -142,7 +162,7 @@ build CMakeFiles/cleaner.dir/Core/Src/main.c.obj: C_COMPILER__cleaner_unscanned_
 build CMakeFiles/cleaner.dir/Core/Src/gpio.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Core/Src/gpio.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Core\Src\gpio.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Core\Src
@@ -152,7 +172,7 @@ build CMakeFiles/cleaner.dir/Core/Src/gpio.c.obj: C_COMPILER__cleaner_unscanned_
 build CMakeFiles/cleaner.dir/Core/Src/freertos.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Core/Src/freertos.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Core\Src\freertos.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Core\Src
@@ -162,7 +182,7 @@ build CMakeFiles/cleaner.dir/Core/Src/freertos.c.obj: C_COMPILER__cleaner_unscan
 build CMakeFiles/cleaner.dir/Core/Src/dma.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Core/Src/dma.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Core\Src\dma.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Core\Src
@@ -172,7 +192,7 @@ build CMakeFiles/cleaner.dir/Core/Src/dma.c.obj: C_COMPILER__cleaner_unscanned_D
 build CMakeFiles/cleaner.dir/Core/Src/tim.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Core/Src/tim.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Core\Src\tim.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Core\Src
@@ -182,7 +202,7 @@ build CMakeFiles/cleaner.dir/Core/Src/tim.c.obj: C_COMPILER__cleaner_unscanned_D
 build CMakeFiles/cleaner.dir/Core/Src/usart.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Core/Src/usart.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Core\Src\usart.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Core\Src
@@ -192,7 +212,7 @@ build CMakeFiles/cleaner.dir/Core/Src/usart.c.obj: C_COMPILER__cleaner_unscanned
 build CMakeFiles/cleaner.dir/Core/Src/stm32f4xx_it.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Core/Src/stm32f4xx_it.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Core\Src\stm32f4xx_it.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Core\Src
@@ -202,7 +222,7 @@ build CMakeFiles/cleaner.dir/Core/Src/stm32f4xx_it.c.obj: C_COMPILER__cleaner_un
 build CMakeFiles/cleaner.dir/Core/Src/stm32f4xx_hal_msp.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Core/Src/stm32f4xx_hal_msp.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Core\Src\stm32f4xx_hal_msp.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Core\Src
@@ -212,7 +232,7 @@ build CMakeFiles/cleaner.dir/Core/Src/stm32f4xx_hal_msp.c.obj: C_COMPILER__clean
 build CMakeFiles/cleaner.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Core/Src/stm32f4xx_hal_timebase_tim.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Core\Src\stm32f4xx_hal_timebase_tim.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Core\Src
@@ -222,7 +242,7 @@ build CMakeFiles/cleaner.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj: C_COMPIL
 build CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Drivers\STM32F4xx_HAL_Driver\Src
@@ -232,7 +252,7 @@ build CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.
 build CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Drivers\STM32F4xx_HAL_Driver\Src
@@ -242,7 +262,7 @@ build CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_
 build CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Drivers\STM32F4xx_HAL_Driver\Src
@@ -252,7 +272,7 @@ build CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flas
 build CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Drivers\STM32F4xx_HAL_Driver\Src
@@ -262,7 +282,7 @@ build CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flas
 build CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Drivers\STM32F4xx_HAL_Driver\Src
@@ -272,7 +292,7 @@ build CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flas
 build CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Drivers\STM32F4xx_HAL_Driver\Src
@@ -282,7 +302,7 @@ build CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio
 build CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Drivers\STM32F4xx_HAL_Driver\Src
@@ -292,7 +312,7 @@ build CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_
 build CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Drivers\STM32F4xx_HAL_Driver\Src
@@ -302,7 +322,7 @@ build CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.
 build CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Drivers\STM32F4xx_HAL_Driver\Src
@@ -312,7 +332,7 @@ build CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.
 build CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Drivers\STM32F4xx_HAL_Driver\Src
@@ -322,7 +342,7 @@ build CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_
 build CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Drivers\STM32F4xx_HAL_Driver\Src
@@ -332,7 +352,7 @@ build CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cort
 build CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Drivers\STM32F4xx_HAL_Driver\Src
@@ -342,7 +362,7 @@ build CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.ob
 build CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Drivers\STM32F4xx_HAL_Driver\Src
@@ -352,7 +372,7 @@ build CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti
 build CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Drivers\STM32F4xx_HAL_Driver\Src
@@ -362,7 +382,7 @@ build CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.
 build CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Drivers\STM32F4xx_HAL_Driver\Src
@@ -372,7 +392,7 @@ build CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_
 build CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Drivers\STM32F4xx_HAL_Driver\Src
@@ -382,7 +402,7 @@ build CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart
 build CMakeFiles/cleaner.dir/Core/Src/system_stm32f4xx.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Core/Src/system_stm32f4xx.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Core\Src\system_stm32f4xx.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Core\Src
@@ -392,7 +412,7 @@ build CMakeFiles/cleaner.dir/Core/Src/system_stm32f4xx.c.obj: C_COMPILER__cleane
 build CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Middlewares/Third_Party/FreeRTOS/Source/croutine.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Middlewares\Third_Party\FreeRTOS\Source
@@ -402,7 +422,7 @@ build CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.
 build CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Middlewares\Third_Party\FreeRTOS\Source
@@ -412,7 +432,7 @@ build CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/event_group
 build CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Middlewares/Third_Party/FreeRTOS/Source/list.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Middlewares\Third_Party\FreeRTOS\Source
@@ -422,7 +442,7 @@ build CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj:
 build CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Middlewares/Third_Party/FreeRTOS/Source/queue.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Middlewares\Third_Party\FreeRTOS\Source
@@ -432,7 +452,7 @@ build CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
 build CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Middlewares\Third_Party\FreeRTOS\Source
@@ -442,7 +462,7 @@ build CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buff
 build CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Middlewares/Third_Party/FreeRTOS/Source/tasks.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Middlewares\Third_Party\FreeRTOS\Source
@@ -452,7 +472,7 @@ build CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
 build CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Middlewares/Third_Party/FreeRTOS/Source/timers.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Middlewares\Third_Party\FreeRTOS\Source
@@ -462,7 +482,7 @@ build CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.ob
 build CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS
@@ -472,7 +492,7 @@ build CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/
 build CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang
@@ -482,7 +502,7 @@ build CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/Me
 build CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F
@@ -492,7 +512,7 @@ build CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GC
 build CMakeFiles/cleaner.dir/Core/Src/sysmem.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Core/Src/sysmem.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Core\Src\sysmem.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Core\Src
@@ -502,7 +522,7 @@ build CMakeFiles/cleaner.dir/Core/Src/sysmem.c.obj: C_COMPILER__cleaner_unscanne
 build CMakeFiles/cleaner.dir/Core/Src/syscalls.c.obj: C_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/Core/Src/syscalls.c || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\Core\Src\syscalls.c.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -fdiagnostics-color=always -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir\Core\Src
@@ -512,7 +532,7 @@ build CMakeFiles/cleaner.dir/Core/Src/syscalls.c.obj: C_COMPILER__cleaner_unscan
 build CMakeFiles/cleaner.dir/startup_stm32f407xx.s.obj: ASM_COMPILER__cleaner_unscanned_Debug E$:/project/cleaner/startup_stm32f407xx.s || cmake_object_order_depends_target_cleaner
   DEFINES = -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\cleaner.dir\startup_stm32f407xx.s.obj.d
-  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -x assembler-with-cpp -MMD -MP -g -O1
+  FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -x assembler-with-cpp -MMD -MP -g -O0
   INCLUDES = -IE:/project/cleaner/Application -IE:/project/cleaner/Bsp -IE:/project/cleaner/Components -IE:/project/cleaner/cmake/stm32cubemx/../../Core/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/include -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -IE:/project/cleaner/cmake/stm32cubemx/../../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -IE:/project/cleaner/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles\cleaner.dir
@@ -527,7 +547,7 @@ build CMakeFiles/cleaner.dir/startup_stm32f407xx.s.obj: ASM_COMPILER__cleaner_un
 #############################################
 # Link the executable cleaner.elf
 
-build cleaner.elf: C_EXECUTABLE_LINKER__cleaner_Debug CMakeFiles/cleaner.dir/Application/arm.c.obj CMakeFiles/cleaner.dir/Application/chassis.c.obj CMakeFiles/cleaner.dir/Application/distance.c.obj CMakeFiles/cleaner.dir/Application/upper.c.obj CMakeFiles/cleaner.dir/Bsp/bsp_dwt.c.obj CMakeFiles/cleaner.dir/Bsp/bsp_uart.c.obj CMakeFiles/cleaner.dir/Components/hcsr04.c.obj CMakeFiles/cleaner.dir/Components/pid.c.obj CMakeFiles/cleaner.dir/Core/Src/main.c.obj CMakeFiles/cleaner.dir/Core/Src/gpio.c.obj CMakeFiles/cleaner.dir/Core/Src/freertos.c.obj CMakeFiles/cleaner.dir/Core/Src/dma.c.obj CMakeFiles/cleaner.dir/Core/Src/tim.c.obj CMakeFiles/cleaner.dir/Core/Src/usart.c.obj CMakeFiles/cleaner.dir/Core/Src/stm32f4xx_it.c.obj CMakeFiles/cleaner.dir/Core/Src/stm32f4xx_hal_msp.c.obj CMakeFiles/cleaner.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj CMakeFiles/cleaner.dir/Core/Src/system_stm32f4xx.c.obj CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj CMakeFiles/cleaner.dir/Core/Src/sysmem.c.obj CMakeFiles/cleaner.dir/Core/Src/syscalls.c.obj CMakeFiles/cleaner.dir/startup_stm32f407xx.s.obj
+build cleaner.elf: C_EXECUTABLE_LINKER__cleaner_Debug CMakeFiles/cleaner.dir/Application/arm.c.obj CMakeFiles/cleaner.dir/Application/chassis.c.obj CMakeFiles/cleaner.dir/Application/distance.c.obj CMakeFiles/cleaner.dir/Application/upper.c.obj CMakeFiles/cleaner.dir/Bsp/bsp_dwt.c.obj CMakeFiles/cleaner.dir/Bsp/bsp_uart.c.obj CMakeFiles/cleaner.dir/Components/hcsr04.c.obj CMakeFiles/cleaner.dir/Components/motor.c.obj CMakeFiles/cleaner.dir/Components/pid.c.obj CMakeFiles/cleaner.dir/Components/servo.c.obj CMakeFiles/cleaner.dir/Core/Src/main.c.obj CMakeFiles/cleaner.dir/Core/Src/gpio.c.obj CMakeFiles/cleaner.dir/Core/Src/freertos.c.obj CMakeFiles/cleaner.dir/Core/Src/dma.c.obj CMakeFiles/cleaner.dir/Core/Src/tim.c.obj CMakeFiles/cleaner.dir/Core/Src/usart.c.obj CMakeFiles/cleaner.dir/Core/Src/stm32f4xx_it.c.obj CMakeFiles/cleaner.dir/Core/Src/stm32f4xx_hal_msp.c.obj CMakeFiles/cleaner.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj CMakeFiles/cleaner.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj CMakeFiles/cleaner.dir/Core/Src/system_stm32f4xx.c.obj CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj CMakeFiles/cleaner.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj CMakeFiles/cleaner.dir/Core/Src/sysmem.c.obj CMakeFiles/cleaner.dir/Core/Src/syscalls.c.obj CMakeFiles/cleaner.dir/startup_stm32f407xx.s.obj
   FLAGS = -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g
   OBJECT_DIR = CMakeFiles\cleaner.dir
   POST_BUILD = cd .

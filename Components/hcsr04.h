@@ -18,6 +18,7 @@ typedef struct
     uint16_t trig_GPIO_Pin;
     GPIO_TypeDef *echo_GPIOx;
     uint16_t echo_GPIO_Pin;
+    uint8_t flag;
 } DistanceSensor;
 
 void initDistanceSensor(DistanceSensor *sensor,

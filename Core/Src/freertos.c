@@ -26,6 +26,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "distance.h"
+#include "upper.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -49,6 +50,7 @@ float test=0;
 /* USER CODE END Variables */
 osThreadId defaultTaskHandle;
 osThreadId DistanceHandle;
+osThreadId UpperHandle;
 
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN FunctionPrototypes */
@@ -57,6 +59,7 @@ osThreadId DistanceHandle;
 
 void StartDefaultTask(void const * argument);
 void StartDistance(void const * argument);
+void StartUpper(void const * argument);
 
 void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
 
@@ -127,6 +130,10 @@ void MX_FREERTOS_Init(void) {
   osThreadDef(Distance, StartDistance, osPriorityAboveNormal, 0, 128);
   DistanceHandle = osThreadCreate(osThread(Distance), NULL);
 
+  /* definition and creation of Upper */
+  osThreadDef(Upper, StartUpper, osPriorityAboveNormal, 0, 128);
+  UpperHandle = osThreadCreate(osThread(Upper), NULL);
+
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
   /* USER CODE END RTOS_THREADS */
@@ -170,6 +177,26 @@ void StartDistance(void const * argument)
     osDelay(1);
   }
   /* USER CODE END StartDistance */
+}
+
+/* USER CODE BEGIN Header_StartUpper */
+/**
+* @brief Function implementing the Upper thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_StartUpper */
+void StartUpper(void const * argument)
+{
+  /* USER CODE BEGIN StartUpper */
+    initUpper();
+  /* Infinite loop */
+  for(;;)
+  {
+      controlUpper();
+    osDelay(1);
+  }
+  /* USER CODE END StartUpper */
 }
 
 /* Private application code --------------------------------------------------*/

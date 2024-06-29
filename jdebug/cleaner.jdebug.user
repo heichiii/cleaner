@@ -1,29 +1,34 @@
 
 
-
-Breakpoint=E:/project/cleaner/Core/Src/freertos.c:162:1, State=BP_STATE_DISABLED
+OpenDocument="bsp_dwt.c", FilePath="E:/project/cleaner/Bsp/bsp_dwt.c", Line=0
+OpenDocument="servo.c", FilePath="E:/project/cleaner/Components/servo.c", Line=0
+OpenDocument="upper.c", FilePath="E:/project/cleaner/Application/upper.c", Line=0
+OpenDocument="bsp_uart.c", FilePath="E:/project/cleaner/Bsp/bsp_uart.c", Line=0
 OpenDocument="stm32f4xx_hal_tim.c", FilePath="E:/project/cleaner/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c", Line=3948
 OpenDocument="stm32f4xx_hal_gpio.c", FilePath="E:/project/cleaner/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c", Line=378
 OpenDocument="hcsr04.c", FilePath="E:/project/cleaner/Components/hcsr04.c", Line=3
 OpenDocument="distance.c", FilePath="E:/project/cleaner/Application/distance.c", Line=0
-OpenDocument="stm32f4xx_it.c", FilePath="E:/project/cleaner/Core/Src/stm32f4xx_it.c", Line=166
-OpenDocument="tasks.c", FilePath="E:/project/cleaner/Middlewares/Third_Party/FreeRTOS/Source/tasks.c", Line=3633
-OpenDocument="freertos.c", FilePath="E:/project/cleaner/Core/Src/freertos.c", Line=136
-OpenDocument="main.c", FilePath="E:/project/cleaner/Core/Src/main.c", Line=59
+OpenDocument="stm32f4xx_it.c", FilePath="E:/project/cleaner/Core/Src/stm32f4xx_it.c", Line=86
+OpenDocument="tasks.c", FilePath="E:/project/cleaner/Middlewares/Third_Party/FreeRTOS/Source/tasks.c", Line=3421
+OpenDocument="freertos.c", FilePath="E:/project/cleaner/Core/Src/freertos.c", Line=163
+OpenDocument="main.c", FilePath="E:/project/cleaner/Core/Src/main.c", Line=60
 OpenToolbar="Debug", Floating=0, x=0, y=0
-OpenWindow="Source Files", DockArea=LEFT, x=0, y=0, w=684, h=650, TabPos=1, TopOfStack=0, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Source Files", DockArea=LEFT, x=0, y=0, w=514, h=650, TabPos=1, TopOfStack=0, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
 OpenWindow="Memory 1", DockArea=BOTTOM, x=1, y=0, w=641, h=330, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, EditorAddress=0x0
-OpenWindow="Watched Data 1", DockArea=LEFT, x=0, y=0, w=684, h=650, TabPos=0, TopOfStack=1, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
-OpenWindow="Functions", DockArea=LEFT, x=0, y=0, w=684, h=650, TabPos=2, TopOfStack=0, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Watched Data 1", DockArea=LEFT, x=0, y=0, w=514, h=650, TabPos=0, TopOfStack=1, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Functions", DockArea=LEFT, x=0, y=0, w=514, h=650, TabPos=2, TopOfStack=0, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
 OpenWindow="Console", DockArea=BOTTOM, x=0, y=0, w=1278, h=330, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
 SmartViewPlugin="", Page="", Toolbar="Hidden", Window="SmartView 1"
 TableHeader="Functions", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Address";"Size";"#Insts";"Source"], ColWidths=[1634;104;100;100;100]
 TableHeader="Source Files", SortCol="File", SortOrder="ASCENDING", VisibleCols=["File";"Status";"Size";"#Insts";"Path"], ColWidths=[263;100;100;100;566]
 TableHeader="Power Sampling", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time";"Ch 0"], ColWidths=[100;100;100]
 TableHeader="RegisterSelectionDialog", SortCol="None", SortOrder="ASCENDING", VisibleCols=[], ColWidths=[]
-TableHeader="Watched Data 1", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Value";"Location";"Refresh"], ColWidths=[219;264;100;101]
-TableHeader="TargetExceptionDialog", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Address";"Description"], ColWidths=[200;100;100;340]
+TableHeader="Watched Data 1", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Value";"Location";"Refresh"], ColWidths=[219;264;100;100]
+TableHeader="TargetExceptionDialog", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Address";"Description"], ColWidths=[200;100;100;359]
 WatchedExpression="dis", RefreshRate=5, Window=Watched Data 1
 WatchedExpression="test", RefreshRate=5, Window=Watched Data 1
 WatchedExpression="htim5", RefreshRate=5, Window=Watched Data 1
 WatchedExpression="forward", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="rx_buff", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="angle", Window=Watched Data 1
+WatchedExpression="servo1", Window=Watched Data 1

@@ -3,3 +3,15 @@
 //
 
 #include "chassis.h"
+
+Chassis chassis={0};
+
+void initChassis(void)
+{
+
+}
+
+void controlChassis(void)
+{
+
+}

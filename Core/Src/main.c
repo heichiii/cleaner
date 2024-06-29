@@ -106,7 +106,7 @@ int main(void)
     //tim for distance
     __HAL_TIM_CLEAR_IT(&htim6, TIM_IT_UPDATE);
     HAL_TIM_Base_Start_IT(&htim6);
-    //uart
+    //uart camera
     initUart(&huart1,rx_buff,30);
     //pwm
     HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);
@@ -220,7 +220,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 
     if (htim->Instance == TIM6)
     {
-
+        //10us加一
         forward.time++;
     }
   /* USER CODE END Callback 1 */

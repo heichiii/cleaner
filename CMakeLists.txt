@@ -73,6 +73,6 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
     # Add user defined libraries
 )
 # 关闭编译优化
-target_compile_options(${CMAKE_PROJECT_NAME} PRIVATE -O1)
+target_compile_options(${CMAKE_PROJECT_NAME} PRIVATE -O0)
 
 
