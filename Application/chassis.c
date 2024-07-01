@@ -15,3 +15,7 @@ void controlChassis(void)
 {
 
 }
+void updateChassisRef(void)
+{
+
+}

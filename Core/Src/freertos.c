@@ -168,12 +168,12 @@ void StartDefaultTask(void const * argument)
 void StartDistance(void const * argument)
 {
   /* USER CODE BEGIN StartDistance */
-    initDistance2();
+    initDistance();
   /* Infinite loop */
   for(;;)
   {
       test+=0.6f;
-      distanceTask2();
+      updateDistance();
     osDelay(1);
   }
   /* USER CODE END StartDistance */

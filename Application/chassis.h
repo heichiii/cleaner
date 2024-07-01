@@ -29,5 +29,6 @@ extern Chassis chassis;
 
 void initChassis(void);
 void controlChassis(void);
+void updateChassisRef(void);
 
 #endif //CLEANER_CHASSIS_H

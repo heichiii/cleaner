@@ -8,12 +8,19 @@
 
 typedef struct
 {
-    Servo servo1;
+    Servo servo_yaw;
+    Servo servo_pitch;
+    Servo servo_gripper;
+
+    float yaw;
+    float pitch;
+    uint8_t gripper;
 }Arm;
 
 extern Arm arm;
 
 void initArm(void);
 void controlArm(void);
-
+void updateControlValue();
+void setArmControl(void);
 #endif //CLEANER_ARM_H

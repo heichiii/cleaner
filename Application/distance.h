@@ -12,7 +12,8 @@ typedef struct
     float distance_f;
     float distance_b;
 }Distance;
+extern Distance dis;
 extern DistanceSensor forward, left, right, back;
-void initDistance2(void);
-void distanceTask2(void);
+void initDistance(void);
+void updateDistance(void);
 #endif //CLEANER_DISTANCE_H

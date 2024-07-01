@@ -5,21 +5,19 @@
 #include "upper.h"
 #include "tim.h"
 
-Servo servo1;
 
+Upper upper={0};
 float angle = 0;
 void initUpper(void)
 {
-    initServo(&servo1, &htim8, TIM_CHANNEL_1);
+
 }
 void controlUpper(void)
 {
 
-    setAngle(&servo1, angle);
-
 }
 void updateBlock(uint8_t *rx,Upper *upper_)
 {
-    upper_->block_x = rx[0];
+    upper_->block.x = rx[0];
 }
 
