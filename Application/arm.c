@@ -3,6 +3,7 @@
 //
 
 #include "arm.h"
+#include "chassis.h"
 #include "tim.h"
 Arm arm={0};
 
@@ -14,6 +15,8 @@ void initArm(void)
     arm.yaw = 0;
     arm.pitch = 0;
     arm.gripper = 0;
+    arm.x = 125;
+    arm.y = 125;
 }
 
 void controlArm(void)
@@ -23,7 +26,10 @@ void controlArm(void)
 }
 void updateControlValue()
 {
+    if(chassis.state==WAIT)
+    {
 
+    }
 }
 void setArmControl(void)
 {

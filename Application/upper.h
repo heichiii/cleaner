@@ -6,6 +6,7 @@
 #define CLEANER_UPPER_H
 #include "servo.h"
 #include "magnet.h"
+#include "motor.h"
 typedef struct upper
 {
     struct
@@ -15,6 +16,8 @@ typedef struct upper
     Servo servo_bucket;
     Servo servo_magnet;
     Magnet magnet;
+    Motor besom;
+
 }Upper;
 
 extern Upper upper;

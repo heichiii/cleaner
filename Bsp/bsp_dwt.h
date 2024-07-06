@@ -14,9 +14,10 @@ void DWT_Init();
 
 void DWT_DelayUS(uint32_t _ulDelayTime);
 
-
+float DWT_DeltaTime(uint32_t *tStart);
 //void DWT_DelayMS(uint32_t _ulDelayTime);
 
 
 
 #endif
+

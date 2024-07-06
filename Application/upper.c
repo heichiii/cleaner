@@ -10,7 +10,10 @@ Upper upper={0};
 float angle = 0;
 void initUpper(void)
 {
-
+    initMotor(&upper.besom,&htim4, TIM_CHANNEL_1, TIM_CHANNEL_2);
+    initMagnet(&upper.magnet, &htim4, TIM_CHANNEL_3, TIM_CHANNEL_4);
+    initServo(&upper.servo_bucket, &htim5, TIM_CHANNEL_1);
+    initServo(&upper.servo_magnet, &htim5, TIM_CHANNEL_2);
 }
 void controlUpper(void)
 {

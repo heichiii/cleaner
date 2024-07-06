@@ -15,6 +15,8 @@ typedef struct
     float yaw;
     float pitch;
     uint8_t gripper;
+
+    float x,y;
 }Arm;
 
 extern Arm arm;

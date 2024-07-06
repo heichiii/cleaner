@@ -6,10 +6,18 @@
 #define CLEANER_CHASSIS_H
 #include "motor.h"
 #include "pid.h"
+typedef enum
+{
+    STOP,
+    ROAM,
+    CHASE,
+    WAIT
+}State;
 typedef struct chassis
 {
-    float x_ref,y_ref;
-    float x,y;
+    State state;
+    float x_ref,y_ref;//0
+    float x,y,x_last,y_last;
 
     float vx_ref,vy_ref;
     float vx,vy,vr;
@@ -23,6 +31,9 @@ typedef struct chassis
 
     PID pid_vx;
     PID pid_vy;
+
+    float dt;
+    uint32_t dwt_cnt;
 }Chassis;
 
 extern Chassis chassis;
@@ -30,5 +41,5 @@ extern Chassis chassis;
 void initChassis(void);
 void controlChassis(void);
 void updateChassisRef(void);
-
+void setChassisControl(void);
 #endif //CLEANER_CHASSIS_H

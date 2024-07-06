@@ -24,6 +24,12 @@ void DWT_DelayUS(uint32_t _ulDelayTime)
     }
 }
 
+float DWT_DeltaTime(uint32_t *tStart)
+{
+    uint32_t tDelta = DWT_CYCCNT - *tStart;
+    *tStart = DWT_CYCCNT;
+    return (float)(tDelta) / SystemCoreClock;
+}
 //void DWT_DelayMS(uint32_t _ulDelayTime)
 //{
 //    bsp_DelayUS(1000*_ulDelayTime);
