@@ -14,15 +14,15 @@ typedef struct
 
     float yaw;
     float pitch;
-    uint8_t gripper;
+    float gripper;
 
     float x,y;
 }Arm;
 
 extern Arm arm;
-
+extern uint32_t time;
 void initArm(void);
 void controlArm(void);
-void updateControlValue();
+void updateControlValue(void);
 void setArmControl(void);
 #endif //CLEANER_ARM_H

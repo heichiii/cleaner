@@ -10,7 +10,6 @@ typedef struct Servo
     TIM_HandleTypeDef *htim;
     uint32_t channel;
     uint32_t pulse;
-    float angle;
 } Servo;
 
 void initServo(Servo *servo, TIM_HandleTypeDef *htim_, uint32_t channel_);

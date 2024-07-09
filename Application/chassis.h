@@ -8,10 +8,11 @@
 #include "pid.h"
 typedef enum
 {
-    STOP,
+
     ROAM,
     CHASE,
     WAIT
+
 }State;
 typedef struct chassis
 {
@@ -40,6 +41,8 @@ extern Chassis chassis;
 
 void initChassis(void);
 void controlChassis(void);
+void setChassisMode(void);
 void updateChassisRef(void);
 void setChassisControl(void);
+uint8_t isClose(float direction);
 #endif //CLEANER_CHASSIS_H

@@ -4,7 +4,8 @@
 
 #include "bsp_uart.h"
 #include "string.h"
-uint8_t rx_buff[30]={0};
+#include "upper.h"
+uint8_t rx_buff[10]={0};
 
 void initUart(UART_HandleTypeDef *huart_,uint8_t* buf_,uint16_t size)
 {
@@ -27,8 +28,6 @@ void USAR_UART_IDLECallback(UART_HandleTypeDef *huart)
 {
     // 停止本次DMA传输
     HAL_UART_DMAStop(huart);
-    // 清零接收缓冲区
-    //memset(rx_buff,0,30);
-    // 重启开始DMA传输 每次255字节数据
-    HAL_UART_Receive_DMA(huart, (uint8_t*)rx_buff, 30);
+    updateBlock(rx_buff,&upper);
+    HAL_UART_Receive_DMA(huart, (uint8_t*)rx_buff, 10);
 }

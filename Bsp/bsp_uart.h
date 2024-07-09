@@ -7,7 +7,7 @@
 
 #include "usart.h"
 //#include "stm32f4xx_hal_uart.h"
-extern uint8_t rx_buff[30];
+extern uint8_t rx_buff[10];
 void initUart(UART_HandleTypeDef *huart_,uint8_t* buf,uint16_t size);
 void USER_UART_IRQHandler(UART_HandleTypeDef *huart);
 void USAR_UART_IDLECallback(UART_HandleTypeDef *huart);

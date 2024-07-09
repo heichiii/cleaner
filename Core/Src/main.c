@@ -29,6 +29,7 @@
 #include "bsp_dwt.h"
 #include "distance.h"
 #include "bsp_uart.h"
+#include "arm.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -107,7 +108,7 @@ int main(void)
     __HAL_TIM_CLEAR_IT(&htim6, TIM_IT_UPDATE);
     HAL_TIM_Base_Start_IT(&htim6);
     //uart camera
-    initUart(&huart1,rx_buff,30);
+    initUart(&huart1,rx_buff,10);
     //pwm
     HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);
     HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_2);
@@ -222,6 +223,9 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
     {
         //10us加一
         forward.time++;
+        left.time++;
+        right.time++;
+        time++;
     }
   /* USER CODE END Callback 1 */
 }

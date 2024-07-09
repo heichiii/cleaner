@@ -15,6 +15,7 @@ typedef struct upper
     }block;
     Servo servo_bucket;
     Servo servo_magnet;
+    float bucket_angle;
     Magnet magnet;
     Motor besom;
 
